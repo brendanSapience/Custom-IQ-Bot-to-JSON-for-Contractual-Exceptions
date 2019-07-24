@@ -1,10 +1,5 @@
-# Nano Services for IQ Bot and all RPA Solutions
+# Custom Nano Service for IQ Bot and RPA
 
-small Flask based Rest Services for IQ Bot and RPA Solutions
+small Flask based Rest Services for IQ Bot and RPA
 
-* Convert Country Name to Country Code (2 letter code. Ex: France -> FR)
-* Reverse the pages in a local pdf file
-* Apply OpenCV Transformations to file
-* Expose IQ Bot output files 
-* NLP (NER, Sentiment Analysis and Language Detection)
-* String Matching (Levenshtein distance, etc.)
+* Convert IQ Bot CSV output into a particular JSON format for Exceptions in Contracts
