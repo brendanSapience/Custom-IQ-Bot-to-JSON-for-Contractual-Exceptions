@@ -20,8 +20,11 @@ On Windows: run the SERVICE_CSVToJson.bat
 ## Endpoint
 
 URL: http://127.0.0.1:5007/convert
+
 Type: POST
+
 Body Type: JSON
+
 Body Example:
 
 {
