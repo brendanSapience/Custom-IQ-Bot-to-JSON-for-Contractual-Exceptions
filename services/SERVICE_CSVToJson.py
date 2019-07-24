@@ -114,7 +114,7 @@ def ConvertCsvToJson(inputcsvfile,columnNum):
         FilteredLines = RemoveFirstPhrase(RawLines,r"^\d+\.")
 
         ConsolidatedLines = ReformatBrokenLines(FilteredLines,r"^\d{1,3}\.|^[a-z]\)")
-        SplitLines = DetectAndExtractLines(ConsolidatedLines,r"(i+\.[ ]+)")
+        SplitLines = DetectAndExtractLines(ConsolidatedLines,r"(i+\.[ ]+|iv\.|v\.|vi\.|vii\.|viii\.|ix.|x\.)")
         FinalLines = SplitLines #RemoveLastPhrase(SplitLines,r"^\d\.|^[a-z]\)")
         #For medium Exceptions:
 
